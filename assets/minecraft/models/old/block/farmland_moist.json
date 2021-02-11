@@ -1,0 +1,47 @@
+{
+"__comment": "Designed by Halbzwilling with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/dirt",
+    "texture": "blocks/farmland_wet",
+    "glowstone": "blocks/farmland_wet"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 15, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#glowstone" },
+        "north": { "uv": [ 0, 1, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 1, 16, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 1, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 1, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0, 15, 0 ],
+    "to": [ 4, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 12, 0 ], "texture": "#glowstone" },
+        "up":    { "uv": [ 0, 0, 4, 16 ], "texture": "#glowstone" },
+        "north": { "uv": [ 12, 0, 16, 1 ], "texture": "#glowstone" },
+        "south": { "uv": [ 0, 0, 4, 1 ], "texture": "#glowstone" },
+        "west":  { "uv": [ 0, 0, 16, 1 ], "texture": "#glowstone" },
+        "east":  { "uv": [ 0, 0, 16, 1 ], "texture": "#glowstone" }
+    }
+},
+{
+    "from": [ 8, 15, 0 ],
+    "to": [ 12, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 8, 16, 4, 0 ], "texture": "#glowstone" },
+        "up":    { "uv": [ 8, 0, 12, 16 ], "texture": "#glowstone" },
+        "north": { "uv": [ 4, 0, 8, 1 ], "texture": "#glowstone" },
+        "south": { "uv": [ 8, 0, 12, 1 ], "texture": "#glowstone" },
+        "west":  { "uv": [ 0, 0, 16, 1 ], "texture": "#glowstone" },
+        "east":  { "uv": [ 0, 0, 16, 1 ], "texture": "#glowstone" }
+    }
+}
+]
+}

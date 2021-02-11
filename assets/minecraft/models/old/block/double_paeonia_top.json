@@ -1,0 +1,22 @@
+{
+"__comment": "Designed by Halbzwilling",
+"textures": {
+    "particle": "blocks/flower_paeonia",
+    "texture": "blocks/flower_paeonia",
+    "flower_houstonia": "blocks/flower_houstonia"
+},
+"elements": [ 
+{
+    "from": [ 8, 15, 15.5 ],
+    "to": [ 8.0625, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 8, 16, 7.9375, 15.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 8, 15.5, 8.0625, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 7.9375, 0, 8, 1 ], "texture": "#texture" },
+        "south": { "uv": [ 8, 0, 8.0625, 1 ], "texture": "#texture" },
+        "west":  { "uv": [ 15.5, 0, 16, 1 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 0.5, 1 ], "texture": "#texture" }
+    }
+}
+]
+}

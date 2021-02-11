@@ -1,0 +1,48 @@
+{
+"__comment": "Designed by Halbzwilling with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/sand",
+    "texture": "blocks/sand",
+    "stone": "blocks/stone"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5, 16, 6.5 ],
+    "to": [ 9.5, 17, 11 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "up":    { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "north": { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "south": { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "west":  { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "east":  { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" }
+    }
+},
+{
+    "from": [ 11, 16, 4.5 ],
+    "to": [ 13, 16.5, 6.5 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "up":    { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "north": { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "south": { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "west":  { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" },
+        "east":  { "uv": [ 2, 2, 4, 4 ], "texture": "#stone" }
+    }
+}
+]
+}

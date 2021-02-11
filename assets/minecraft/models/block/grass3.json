@@ -1,0 +1,54 @@
+{
+"__comment": "Designed by Halbzwilling with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/dirt",
+    "texture": "blocks/grass_side",
+    "grass_side_overlay": "blocks/grass_side_overlay",
+    "grass_top": "blocks/grass_top",
+    "stone": "blocks/stone",
+    "water_still": "blocks/water_still",
+    "tallgrass": "blocks/flower_allium"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 9.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#particle", "cullface": "down" },
+        "north": { "uv": [ 0, 6.5, 16, 16 ], "texture": "#texture", "cullface": "north" },
+        "south": { "uv": [ 0, 6.5, 16, 16 ], "texture": "#texture", "cullface": "south" },
+        "west":  { "uv": [ 0, 6.5, 16, 16 ], "texture": "#texture", "cullface": "west" },
+        "east":  { "uv": [ 0, 6.5, 16, 16 ], "texture": "#texture", "cullface": "east" }
+    }
+},
+{
+    "from": [ 0, 9.5, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_top", "tintindex": false, "cullface": "up" },
+        "north": { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": false, "cullface": "north" },
+        "south": { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": false, "cullface": "south" },
+        "west":  { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": false, "cullface": "west" },
+        "east":  { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": false, "cullface": "east" }
+    }
+},
+{
+    "from": [ 4.4375, 16, 4.4375 ],
+    "to": [ 4.5, 26, 14.4375 ],
+    "rotation": { "origin": [ 4.4375, 16, 4.4375 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#tallgrass", "tintindex": 0, "cullface": "up" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#tallgrass", "tintindex": 0, "cullface": "up" }
+    }
+},
+{
+    "from": [ 11.5625, 16, 4.4375 ],
+    "to": [ 11.625, 26, 14.4375 ],
+    "rotation": { "origin": [ 11.5625, 16, 4.4375 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#tallgrass", "tintindex": 0, "cullface": "up" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#tallgrass", "tintindex": 0, "cullface": "up" }
+    }
+}
+]
+}

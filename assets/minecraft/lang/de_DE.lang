@@ -1,0 +1,39 @@
+
+language.name=Deutsch
+language.region=DE
+language.code=de_DE
+
+##5by5 Edit:##
+
+tile.enchantmentTable.name=Verzauberungs Altar
+
+item.snowball.name=Schnee-Würfel
+item.slimeball.name=Schleim-Würfel
+item.egg.name=Ei-Würfel
+item.enderPearl.name=Ender-Würfel
+item.eyeOfEnder.name=Eenderaugen-Würfel
+enchantment.level.1=§eI
+enchantment.level.2=§eII
+enchantment.level.3=§eIII
+enchantment.level.4=§eIV
+enchantment.level.5=§eV
+enchantment.level.6=§eVI
+enchantment.level.7=§eVII
+enchantment.level.8=§eVIII
+enchantment.level.9=§eIX
+enchantment.level.10=§eX
+
+gui.done=§aDone
+container.crafting=
+
+menu.game=Menu
+menu.online=Realms
+menu.options=Options
+menu.quit=Quit
+
+gameMode.changed=§bGamemode geupdated!
+selectServer.select=§bJoinen!
+selectServer.direct=Per IP Joinen
+
+resourcePack.title=Danke, dass du 5by5 benutzt!
+---------------------------------------------------

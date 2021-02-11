@@ -1,0 +1,33 @@
+{
+"__comment": "Designed by Halbzwilling",
+"textures": {
+    "particle": "blocks/nether_brick",
+    "texture": "blocks/nether_brick"
+},
+"elements": [ 
+{
+    "from": [ 6, 2, 0 ],
+    "to": [ 10, 14, 16 ],
+    "faces": {
+        "down":  { "uv": [ 10, 16, 6, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 6, 2, 10, 14 ], "texture": "#texture" },
+        "south": { "uv": [ 6, 2, 10, 14 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 2, 16, 14 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 2, 16, 14 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5, 0, 0 ],
+    "to": [ 11, 2, 16 ],
+    "faces": {
+        "down":  { "uv": [ 11, 16, 5, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 5, 0, 11, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 5, 14, 11, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 5, 14, 11, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 14, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 14, 16, 16 ], "texture": "#texture" }
+    }
+}
+]
+}

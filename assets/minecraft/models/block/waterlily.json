@@ -1,0 +1,23 @@
+{
+"__comment": "Designed by Halbzwilling",
+"textures": {
+    "particle": "blocks/waterlily",
+    "texture": "blocks/waterlily",
+    "door_birch_lower": "blocks/door_birch_lower",
+    "door_birch_upper": "blocks/door_birch_upper"
+},
+"elements": [ 
+{
+    "from": [ 1, -1, 1 ],
+    "to": [ 15, 0.5, 15 ],
+    "faces": {
+        "down":  { "uv": [ 15, 15, 1, 1 ], "texture": "#texture", "tintindex": 0 },
+        "up":    { "uv": [ 1, 1, 15, 15 ], "texture": "#texture", "tintindex": 0 },
+        "north": { "uv": [ 1, 14, 15, 15 ], "texture": "#texture", "tintindex": 0 },
+        "south": { "uv": [ 1, 14, 15, 15 ], "texture": "#texture", "tintindex": 0 },
+        "west":  { "uv": [ 1, 14, 15, 15 ], "texture": "#texture", "tintindex": 0 },
+        "east":  { "uv": [ 1, 14, 15, 15 ], "texture": "#texture", "tintindex": 0 }
+    }
+}
+]
+}

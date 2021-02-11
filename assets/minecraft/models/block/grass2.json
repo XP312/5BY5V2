@@ -1,0 +1,59 @@
+{
+"__comment": "Designed by Halbzwilling with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/dirt",
+    "texture": "blocks/grass_side",
+    "grass_side_overlay": "blocks/grass_side_overlay",
+    "grass_top": "blocks/grass_top",
+    "stone": "blocks/stone",
+    "water_still": "blocks/water_still"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 9.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#particle", "cullface": "down" },
+        "north": { "uv": [ 0, 6.5, 16, 16 ], "texture": "#texture", "cullface": "north" },
+        "south": { "uv": [ 0, 6.5, 16, 16 ], "texture": "#texture", "cullface": "south" },
+        "west":  { "uv": [ 0, 6.5, 16, 16 ], "texture": "#texture", "cullface": "west" },
+        "east":  { "uv": [ 0, 6.5, 16, 16 ], "texture": "#texture", "cullface": "east" }
+    }
+},
+{
+    "from": [ 0, 9.5, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_top", "tintindex": 0, "cullface": "up" },
+        "north": { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": 0, "cullface": "north" },
+        "south": { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": 0, "cullface": "south" },
+        "west":  { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": 0, "cullface": "west" },
+        "east":  { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": 0, "cullface": "east" }
+    }
+},
+{
+    "from": [ 4.5, 16, 4.5 ],
+    "to": [ 6.5, 16.5, 6.5 ],
+    "faces": {
+        "down":  { "uv": [ 11.5, 6.5, 9.5, 4.5 ], "texture": "#stone" },
+        "up":    { "uv": [ 4.5, 4.5, 6.5, 6.5 ], "texture": "#stone" },
+        "north": { "uv": [ 9.5, 0, 11.5, 0 ], "texture": "#stone" },
+        "south": { "uv": [ 4.5, 0, 6.5, 0 ], "texture": "#stone" },
+        "west":  { "uv": [ 4.5, 0, 6.5, 0 ], "texture": "#stone" },
+        "east":  { "uv": [ 9.5, 0, 11.5, 0 ], "texture": "#stone" }
+    }
+},
+{
+    "from": [ 12, 16, 12 ],
+    "to": [ 14, 16.5, 14 ],
+    "faces": {
+        "down":  { "uv": [ 4, 14, 2, 12 ], "texture": "#stone" },
+        "up":    { "uv": [ 12, 12, 14, 14 ], "texture": "#stone" },
+        "north": { "uv": [ 2, 0, 4, 0 ], "texture": "#stone" },
+        "south": { "uv": [ 12, 0, 14, 0 ], "texture": "#stone" },
+        "west":  { "uv": [ 12, 0, 14, 0 ], "texture": "#stone" },
+        "east":  { "uv": [ 2, 0, 4, 0 ], "texture": "#stone" }
+    }
+}
+]
+}

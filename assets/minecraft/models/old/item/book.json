@@ -1,0 +1,68 @@
+{
+"__comment": "Designed by Halbzwilling with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "items/paper",
+    "texture": "items/paper",
+    "beacon": "items/book_normal"
+},
+"elements": [ 
+{
+    "from": [ 1.125, 4.5625, 2 ],
+    "to": [ 9.125, 5.5625, 14 ],
+    "rotation": { "origin": [ 1.125, 5.5625, 2 ], "axis": "z", "angle": -22.5 },
+    "faces": {
+        "down":  { "uv": [ 10, 3, 3, 14 ], "texture": "#beacon" },
+        "up":    { "uv": [ 5, 4, 11, 13 ], "texture": "#texture" },
+        "north": { "uv": [ 4, 3.5, 5, 12 ], "texture": "#texture" },
+        "south": { "uv": [ 4, 3.5, 5, 11 ], "texture": "#texture" },
+        "west":  { "uv": [ 4, 3.5, 5, 11.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 4, 3, 5, 12 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 7.8125, 1.4375, 2 ],
+    "to": [ 15.8125, 2.4375, 14 ],
+    "rotation": { "origin": [ 7.8125, 2.4375, 2 ], "axis": "z", "angle": 22.5 },
+    "faces": {
+        "down":  { "uv": [ 10, 3, 3, 14 ], "texture": "#beacon" },
+        "up":    { "uv": [ 5, 4, 11, 13 ], "texture": "#texture" },
+        "north": { "uv": [ 4, 3, 5, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 4, 3, 5, 12.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 4, 3, 5, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 10, 3, 11, 13 ], "texture": "#texture" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ -27, 26, -164 ],
+        "translation": [ 0, -1, -2.9 ],
+        "scale": [ 0.7, 0.7, 0.7 ]
+    },
+    "head": {
+        "rotation": [ 0, 31, 180 ],
+        "translation": [ 0, 2.1, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "ground": {
+        "rotation": [ 156, 0, 0 ],
+        "translation": [ 0, -14.4, 0 ],
+        "scale": [ 3, 3, 3 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 5.2 ],
+        "scale": [ 3, 3, 3 ]
+    },
+    "firstperson": {
+        "rotation": [ 61, -78, 13 ],
+        "translation": [ 1.4, 4.5, -4.9 ],
+        "scale": [ 1.6, 1.6, 1.6 ]
+    },
+    "gui": {
+        "rotation": [ -91, 118, -7 ],
+        "translation": [ 0, 1.9, -1.5 ],
+        "scale": [ 1.6, 1.6, 1.6 ]
+    }
+}
+}

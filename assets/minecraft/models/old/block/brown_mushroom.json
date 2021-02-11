@@ -1,0 +1,57 @@
+{
+"__comment": "Designed by Halbzwilling",
+"textures": {
+    "particle": "blocks/mushroom_brown",
+    "texture": "blocks/mushroom_brown"
+},
+"elements": [ 
+{
+    "from": [ 7.5, 0, 7.5 ],
+    "to": [ 8.5, 4.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 7, 15.5, 6, 14.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 6.5, 15, 7.5, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 6.5, 13.5, 7.5, 15.5 ], "texture": "#texture" },
+        "south": { "uv": [ 6, 13.5, 7, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 7, 14, 8, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 6.5, 13.5, 7.5, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5, 5, 5 ],
+    "to": [ 11, 6, 11 ],
+    "faces": {
+        "down":  { "uv": [ 10.5, 12.5, 4.5, 6.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 4.5, 6.5, 10.5, 12.5 ], "texture": "#texture" },
+        "north": { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5.5, 6, 5.5 ],
+    "to": [ 10.5, 6.5, 10.5 ],
+    "faces": {
+        "down":  { "uv": [ 10.5, 12.5, 4.5, 6.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 4.5, 6.5, 10.5, 12.5 ], "texture": "#texture" },
+        "north": { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5.5, 4.5, 5.5 ],
+    "to": [ 10.5, 5, 10.5 ],
+    "faces": {
+        "down":  { "uv": [ 10.5, 12.5, 4.5, 6.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 4.5, 6.5, 10.5, 12.5 ], "texture": "#texture" },
+        "north": { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 5, 12, 10, 13 ], "texture": "#texture" }
+    }
+}
+]
+}

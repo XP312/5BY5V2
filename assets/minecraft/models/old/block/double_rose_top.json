@@ -1,0 +1,21 @@
+{
+"__comment": "Designed by Halbzwilling",
+"textures": {
+    "particle": "blocks/flower_rose",
+    "texture": "blocks/flower_rose"
+},
+"elements": [ 
+{
+    "from": [ 7.5, 0, 6.5 ],
+    "to": [ 8.5, 0.5, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 16, 8, 15 ], "texture": "#texture" },
+        "up":    { "uv": [ 8, 15, 9, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 8, 15.5, 9, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 8, 15.5, 9, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 8, 15.5, 9, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 8, 15.5, 9, 16 ], "texture": "#texture" }
+    }
+}
+]
+}

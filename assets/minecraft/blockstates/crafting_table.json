@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/crafting_table", "weight": 50 },
+			{ "model": "block/crafting_table1", "weight": 1},
+      { "model": "block/crafting_table2", "weight": 1}
+        ]
+    }
+}

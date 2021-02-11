@@ -1,0 +1,59 @@
+{
+"__comment": "Designed by Halbzwilling",
+"textures": {
+    "particle": "blocks/planks_birch",
+    "texture": "blocks/planks_birch",
+    "door_birch_lower": "blocks/door_birch_lower",
+    "door_birch_upper": "blocks/door_birch_upper"
+},
+"elements": [ 
+{
+    "from": [ 0, 14, 0 ],
+    "to": [ 2, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 2, 0, 0 ], "rotation": 90, "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 16, 2 ], "rotation": 270, "texture": "#texture" },
+        "north": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 2, 2 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 16, 2 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 16, 2 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0, 0, 14 ],
+    "to": [ 2, 14, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 2, 14, 0 ], "rotation": 90, "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 2, 2 ], "rotation": 270, "texture": "#texture" },
+        "north": { "uv": [ 14, 2, 16, 8.5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 2.5, 2, 9 ], "texture": "#texture" },
+        "west":  { "uv": [ 14, 2.5, 16, 9 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 2, 2, 8.5 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 2, 14, 2 ],
+    "faces": {
+        "down":  { "uv": [ 2, 2, 0, 0 ], "rotation": 90, "texture": "#texture" },
+        "up":    { "uv": [ 14, 0, 16, 2 ], "rotation": 270, "texture": "#texture" },
+        "north": { "uv": [ 14, 2, 16, 8.5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 2, 2, 8.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 1.5, 2, 8 ], "texture": "#texture" },
+        "east":  { "uv": [ 14, 2, 16, 8.5 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0.5, 0, 2 ],
+    "to": [ 1.5, 14, 14 ],
+    "faces": {
+        "down":  { "uv": [ 15.5, 14, 14.5, 2 ], "texture": "#door_birch_upper" },
+        "up":    { "uv": [ 0.5, 2, 1.5, 14 ], "texture": "#door_birch_upper" },
+        "north": { "uv": [ 14.5, 0, 15.5, 6.5 ], "texture": "#door_birch_upper" },
+        "south": { "uv": [ 0.5, 0, 1.5, 6.5 ], "texture": "#door_birch_upper" },
+        "west":  { "uv": [ 3, 3, 13, 16 ], "texture": "#door_birch_upper" },
+        "east":  { "uv": [ 3, 3, 13, 16 ], "texture": "#door_birch_upper" }
+    }
+}
+]
+}

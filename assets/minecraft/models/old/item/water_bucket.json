@@ -1,0 +1,109 @@
+{
+"__comment": "Designed by Halbzwilling with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/iron_block",
+    "texture": "blocks/door_iron_lower",
+    "water_flow": "blocks/water_still"
+},
+"elements": [ 
+{
+    "from": [ 5, 2, 5 ],
+    "to": [ 11, 3, 11 ],
+    "faces": {
+        "down":  { "uv": [ 11, 11, 5, 5 ], "texture": "#texture" },
+        "up":    { "uv": [ 5, 5, 11, 11 ], "texture": "#texture" },
+        "north": { "uv": [ 5, 13, 11, 14 ], "texture": "#texture" },
+        "south": { "uv": [ 5, 13, 11, 14 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 13, 11, 14 ], "texture": "#texture" },
+        "east":  { "uv": [ 5, 13, 11, 14 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 4, 3, 5 ],
+    "to": [ 5, 10, 11 ],
+    "faces": {
+        "down":  { "uv": [ 12, 11, 11, 5 ], "texture": "#texture" },
+        "up":    { "uv": [ 4, 5, 5, 11 ], "texture": "#texture" },
+        "north": { "uv": [ 11, 6, 12, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 4, 6, 5, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 6, 11, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 5, 6, 11, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5, 3, 4 ],
+    "to": [ 11, 10, 5 ],
+    "faces": {
+        "down":  { "uv": [ 11, 5, 5, 4 ], "texture": "#texture" },
+        "up":    { "uv": [ 5, 4, 11, 5 ], "texture": "#texture" },
+        "north": { "uv": [ 5, 6, 11, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 5, 6, 11, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 4, 6, 5, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 11, 6, 12, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 11, 3, 5 ],
+    "to": [ 12, 10, 11 ],
+    "faces": {
+        "down":  { "uv": [ 5, 11, 4, 5 ], "texture": "#texture" },
+        "up":    { "uv": [ 11, 5, 12, 11 ], "texture": "#texture" },
+        "north": { "uv": [ 4, 6, 5, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 11, 6, 12, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 6, 11, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 5, 6, 11, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5, 3, 11 ],
+    "to": [ 11, 10, 12 ],
+    "faces": {
+        "down":  { "uv": [ 11, 12, 5, 11 ], "texture": "#texture" },
+        "up":    { "uv": [ 5, 11, 11, 12 ], "texture": "#texture" },
+        "north": { "uv": [ 5, 6, 11, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 5, 6, 11, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 11, 6, 12, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 4, 6, 5, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5, 3, 5 ],
+    "to": [ 11, 9, 11 ],
+    "faces": {
+        "down":  { "uv": [ 11, 11, 5, 5 ], "texture": "#water_flow" },
+        "up":    { "uv": [ 5, 5, 11, 11 ], "texture": "#water_flow" },
+        "north": { "uv": [ 5, 7, 11, 13 ], "texture": "#water_flow" },
+        "south": { "uv": [ 5, 7, 11, 13 ], "texture": "#water_flow" },
+        "west":  { "uv": [ 5, 7, 11, 13 ], "texture": "#water_flow" },
+        "east":  { "uv": [ 5, 7, 11, 13 ], "texture": "#water_flow" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ 0, 90, -140 ],
+        "translation": [ 0, 2, -3 ],
+        "scale": [ 0.85, 0.85, 0.85 ]
+    },
+    "ground": {
+        "rotation": [ -18, 0, 0 ],
+        "translation": [ 0, -8, 0 ],
+        "scale": [ 3, 3, 3 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 3, 3, 3 ]
+    },
+    "firstperson": {
+        "rotation": [ 0, -135, -9 ],
+        "translation": [ 1.4, 3.1, -2.4 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "gui": {
+        "rotation": [ 0, 7, 0 ],
+        "translation": [ 0, 1.5, 0 ],
+        "scale": [ 2, 2, 2 ]
+    }
+}
+}

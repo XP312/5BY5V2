@@ -1,0 +1,99 @@
+{
+"__comment": "Designed by Halbzwilling with BDcraft Cubik PRO 0.91 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/grass_top",
+    "texture": "blocks/grass_top",
+    "dirt": "blocks/grass_side",
+    "grass_side_overlay": "blocks/grass_side_overlay",
+    "stone_andesite_smooth": "blocks/anvil_base"
+},
+"elements": [ 
+{
+    "from": [ 0, 9.5, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "tintindex": 0, "cullface": "up" },
+        "north": { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": 0, "cullface": "north" },
+        "south": { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": 0, "cullface": "south" },
+        "west":  { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": 0, "cullface": "west" },
+        "east":  { "uv": [ 0, 0, 16, 6.5 ], "texture": "#grass_side_overlay", "tintindex": 0, "cullface": "east" }
+    }
+},
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 9.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#dirt", "cullface": "down" },
+        "north": { "uv": [ 0, 6.5, 16, 16 ], "texture": "#dirt", "cullface": "north" },
+        "south": { "uv": [ 0, 6.5, 16, 16 ], "texture": "#dirt", "cullface": "south" },
+        "west":  { "uv": [ 0, 6.5, 16, 16 ], "texture": "#dirt", "cullface": "west" },
+        "east":  { "uv": [ 0, 6.5, 16, 16 ], "texture": "#dirt", "cullface": "east" }
+    }
+},
+{
+    "from": [ 5, 16, 5 ],
+    "to": [ 10, 17, 8 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 11, 8, 6, 5 ], "texture": "#stone_andesite_smooth" },
+        "up":    { "uv": [ 5, 5, 10, 8 ], "texture": "#stone_andesite_smooth" },
+        "north": { "uv": [ 6, 0, 11, 0 ], "texture": "#stone_andesite_smooth" },
+        "south": { "uv": [ 5, 0, 10, 0 ], "texture": "#stone_andesite_smooth" },
+        "west":  { "uv": [ 5, 0, 8, 0 ], "texture": "#stone_andesite_smooth" },
+        "east":  { "uv": [ 8, 0, 11, 0 ], "texture": "#stone_andesite_smooth" }
+    }
+},
+{
+    "from": [ 10, 16, 9 ],
+    "to": [ 11, 16.5, 10 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 6, 10, 5, 9 ], "texture": "#stone_andesite_smooth" },
+        "up":    { "uv": [ 10, 9, 11, 10 ], "texture": "#stone_andesite_smooth" },
+        "north": { "uv": [ 5, 0, 6, 0 ], "texture": "#stone_andesite_smooth" },
+        "south": { "uv": [ 10, 0, 11, 0 ], "texture": "#stone_andesite_smooth" },
+        "west":  { "uv": [ 9, 0, 10, 0 ], "texture": "#stone_andesite_smooth" },
+        "east":  { "uv": [ 6, 0, 7, 0 ], "texture": "#stone_andesite_smooth" }
+    }
+},
+{
+    "from": [ 3.5, 16, 3.5 ],
+    "to": [ 4.5, 16.5, 4.5 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 12.5, 4.5, 11.5, 3.5 ], "texture": "#stone_andesite_smooth" },
+        "up":    { "uv": [ 3.5, 3.5, 4.5, 4.5 ], "texture": "#stone_andesite_smooth" },
+        "north": { "uv": [ 11.5, 0, 12.5, 0 ], "texture": "#stone_andesite_smooth" },
+        "south": { "uv": [ 3.5, 0, 4.5, 0 ], "texture": "#stone_andesite_smooth" },
+        "west":  { "uv": [ 3.5, 0, 4.5, 0 ], "texture": "#stone_andesite_smooth" },
+        "east":  { "uv": [ 11.5, 0, 12.5, 0 ], "texture": "#stone_andesite_smooth" }
+    }
+},
+{
+    "from": [ 7, 17.5, 6 ],
+    "to": [ 8.5, 18, 7 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 9, 7, 7.5, 6 ], "texture": "#stone_andesite_smooth" },
+        "up":    { "uv": [ 7, 6, 8.5, 7 ], "texture": "#stone_andesite_smooth" },
+        "north": { "uv": [ 7.5, 0, 9, 0 ], "texture": "#stone_andesite_smooth" },
+        "south": { "uv": [ 7, 0, 8.5, 0 ], "texture": "#stone_andesite_smooth" },
+        "west":  { "uv": [ 6, 0, 7, 0 ], "texture": "#stone_andesite_smooth" },
+        "east":  { "uv": [ 9, 0, 10, 0 ], "texture": "#stone_andesite_smooth" }
+    }
+},
+{
+    "from": [ 10.5, 16, 3.5 ],
+    "to": [ 11, 16.5, 4 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 5.5, 4, 5, 3.5 ], "texture": "#stone_andesite_smooth" },
+        "up":    { "uv": [ 10.5, 3.5, 11, 4 ], "texture": "#stone_andesite_smooth" },
+        "north": { "uv": [ 5, 0, 5.5, 0 ], "texture": "#stone_andesite_smooth" },
+        "south": { "uv": [ 10.5, 0, 11, 0 ], "texture": "#stone_andesite_smooth" },
+        "west":  { "uv": [ 3.5, 0, 4, 0 ], "texture": "#stone_andesite_smooth" },
+        "east":  { "uv": [ 12, 0, 12.5, 0 ], "texture": "#stone_andesite_smooth" }
+    }
+}
+]
+}

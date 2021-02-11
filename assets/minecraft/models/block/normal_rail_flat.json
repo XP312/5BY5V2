@@ -1,0 +1,94 @@
+{
+"__comment": "Designed by Halbzwilling with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/rail_normal",
+    "texture": "blocks/iron_block",
+    "planks_oak": "blocks/planks_oak"
+},
+"elements": [ 
+{
+    "from": [ 1.5, 0, 0 ],
+    "to": [ 3, 1.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 1, 16 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 1, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 2, 14.5, 2.5, 15 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 15.5, 0.5, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 15, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 15, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 13, 0, 0 ],
+    "to": [ 14.5, 1.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 1, 16 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 1, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 2, 14.5, 2.5, 15 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 15.5, 0.5, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 15, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 15, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0.5, 0, 0.5 ],
+    "to": [ 15.5, 0.5, 2.5 ],
+    "faces": {
+        "down":  { "uv": [ 15, 4, 1, 2 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 1, 2, 15, 4 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 5.5, 14, 7.5, 14.5 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 9, 1.5, 11, 2 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 0.5, 0, 13.5 ],
+    "to": [ 15.5, 0.5, 15.5 ],
+    "faces": {
+        "down":  { "uv": [ 15, 4, 1, 2 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 1, 2, 15, 4 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 5.5, 14, 7.5, 14.5 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 9, 1.5, 11, 2 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 0.5, 0, 3.5 ],
+    "to": [ 15.5, 0.5, 5.5 ],
+    "faces": {
+        "down":  { "uv": [ 15, 4, 1, 2 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 1, 2, 15, 4 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 5.5, 14, 7.5, 14.5 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 9, 1.5, 11, 2 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 0.5, 0, 10.5 ],
+    "to": [ 15.5, 0.5, 12.5 ],
+    "faces": {
+        "down":  { "uv": [ 15, 4, 1, 2 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 1, 2, 15, 4 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 5.5, 14, 7.5, 14.5 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 9, 1.5, 11, 2 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 0.5, 0, 7 ],
+    "to": [ 15.5, 0.5, 9 ],
+    "faces": {
+        "down":  { "uv": [ 15, 4, 1, 2 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 1, 2, 15, 4 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 1, 2.5, 15, 3 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 5.5, 14, 7.5, 14.5 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 9, 1.5, 11, 2 ], "texture": "#planks_oak" }
+    }
+}
+]
+}

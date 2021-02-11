@@ -1,0 +1,40 @@
+
+language.name=English
+language.region=US
+language.code=en_US
+
+##5by5 Edit:##
+
+tile.enchantmentTable.name=Enchanting Altar
+
+item.snowball.name=Snow Cube
+item.slimeball.name=Slime Cube
+item.egg.name=Egg Cube
+item.enderPearl.name=Ender Cube
+item.eyeOfEnder.name=Cube of Ender
+
+enchantment.level.1=§eI
+enchantment.level.2=§eII
+enchantment.level.3=§eIII
+enchantment.level.4=§eIV
+enchantment.level.5=§eV
+enchantment.level.6=§eVI
+enchantment.level.7=§eVII
+enchantment.level.8=§eVIII
+enchantment.level.9=§eIX
+enchantment.level.10=§eX
+
+gui.done=§aDone
+container.crafting=
+
+menu.game=Menu
+menu.online=Realms
+menu.options=Options
+menu.quit=Quit
+
+gameMode.changed=§bGamemode Updated
+selectServer.select=§bJoin!
+selectServer.direct=Direct Connect
+
+resourcePack.title=Thanks for using 5by5!
+---------------------------------------------------

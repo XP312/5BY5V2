@@ -1,0 +1,127 @@
+{
+"__comment": "Designed by Halbzwilling with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/glass_white",
+    "texture": "blocks/glass_white",
+    "water_flow": "blocks/water_flow",
+    "planks_oak": "blocks/planks_oak"
+},
+"elements": [ 
+{
+    "from": [ 6, 7.5, 6 ],
+    "to": [ 11, 8.5, 11 ],
+    "faces": {
+        "down":  { "uv": [ 2, 2, 1, 1 ], "texture": "#texture", "tintindex": 0 },
+        "up":    { "uv": [ 1, 1, 2, 2 ], "texture": "#texture", "tintindex": 0 },
+        "north": { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 },
+        "south": { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 },
+        "west":  { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 },
+        "east":  { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 }
+    }
+},
+{
+    "from": [ 5.5, 4, 5.5 ],
+    "to": [ 11.5, 7.5, 11.5 ],
+    "faces": {
+        "down":  { "uv": [ 2, 2, 1, 1 ], "texture": "#texture", "tintindex": 0 },
+        "up":    { "uv": [ 1, 1, 2, 2 ], "texture": "#texture", "tintindex": 0 },
+        "north": { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 },
+        "south": { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 },
+        "west":  { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 },
+        "east":  { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 }
+    }
+},
+{
+    "from": [ 6, 3, 6 ],
+    "to": [ 11, 4, 11 ],
+    "faces": {
+        "down":  { "uv": [ 2, 2, 1, 1 ], "texture": "#texture", "tintindex": 0 },
+        "up":    { "uv": [ 1, 1, 2, 2 ], "texture": "#texture", "tintindex": 0 },
+        "north": { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 },
+        "south": { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 },
+        "west":  { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 },
+        "east":  { "uv": [ 1, 1, 7, 2 ], "texture": "#texture", "tintindex": 0 }
+    }
+},
+{
+    "from": [ 8.5, 9.5, 8.5 ],
+    "to": [ 9.5, 10.5, 9.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 2, 7, 1.5 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 7, 1.5, 7.5, 2 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 6.5, 1.5, 8.5, 7 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 7.5, 1.5, 9.5, 7 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 7.5, 1.5, 9.5, 7 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 6.5, 1.5, 8.5, 7 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 9, 9, 9.5 ],
+    "to": [ 10, 10, 10.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 2, 7, 1.5 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 7, 1.5, 7.5, 2 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 6.5, 1.5, 8.5, 7 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 7.5, 1.5, 9.5, 7 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 7.5, 1.5, 9.5, 7 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 6.5, 1.5, 8.5, 7 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 8, 9, 8 ],
+    "to": [ 9, 10, 9 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 2, 7, 1.5 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 7, 1.5, 7.5, 2 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 6.5, 1.5, 8.5, 7 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 7.5, 1.5, 9.5, 7 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 7.5, 1.5, 9.5, 7 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 6.5, 1.5, 8.5, 7 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 7.5, 8.5, 7.5 ],
+    "to": [ 9.5, 9, 9.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 2, 7, 1.5 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 7, 1.5, 7.5, 2 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 6.5, 1.5, 8.5, 7 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 7.5, 1.5, 9.5, 7 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 7.5, 1.5, 9.5, 7 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 6.5, 1.5, 8.5, 7 ], "texture": "#planks_oak" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ 10, -45, 170 ],
+        "translation": [ 0, 1.5, -2.75 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 7.5, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "ground": {
+        "rotation": [ -18, 0, 0 ],
+        "translation": [ 0, -8, 0 ],
+        "scale": [ 3, 3, 3 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, -0.1 ],
+        "scale": [ 3, 3, 3 ]
+    },
+    "firstperson": {
+        "rotation": [ 0, -135, -9 ],
+        "translation": [ 1.4, 3.1, -2.4 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "gui": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 2.5, -0.9 ],
+        "scale": [ 2, 2, 2 ]
+    }
+}
+}

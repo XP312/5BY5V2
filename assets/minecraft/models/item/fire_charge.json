@@ -1,0 +1,69 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"texture": "block/jungle_planks",
+		"coal_block": "item/fireball"
+	},
+	"elements": [
+		{
+			"from": [7, 1.5, 7],
+			"to": [9, 10, 9],
+			"faces": {
+				"north": {"uv": [7, 6, 9, 14.5], "texture": "#texture"},
+				"east": {"uv": [7, 6, 9, 14.5], "texture": "#texture"},
+				"south": {"uv": [7, 6, 9, 14.5], "texture": "#texture"},
+				"west": {"uv": [7, 6, 9, 14.5], "texture": "#texture"},
+				"up": {"uv": [7, 7, 9, 9], "texture": "#texture"},
+				"down": {"uv": [9, 9, 7, 7], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [6.5, 10, 6.5],
+			"to": [9.5, 15, 9.5],
+			"faces": {
+				"north": {"uv": [7, 3, 10, 8.5], "texture": "#coal_block"},
+				"east": {"uv": [6.5, 3, 9.5, 8.5], "texture": "#coal_block"},
+				"south": {"uv": [6.5, 3, 9.5, 8.5], "texture": "#coal_block"},
+				"west": {"uv": [6.5, 3, 9.5, 8.5], "texture": "#coal_block"},
+				"up": {"uv": [5.5, 3, 7.5, 4], "texture": "#coal_block"},
+				"down": {"uv": [7, 4, 5, 3], "texture": "#coal_block"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 5.67, 1.51]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 5.67, 1.51]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 2.46, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 2.46, 0]
+		},
+		"ground": {
+			"rotation": [0, 3, 60],
+			"translation": [0, 0.38, 0]
+		},
+		"gui": {
+			"rotation": [0, 157, 24],
+			"translation": [0, -0.19, 0],
+			"scale": [1, 1.1, 1]
+		},
+		"head": {
+			"rotation": [0, 90, -180],
+			"translation": [0, 12.66, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 0, -1.12],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}

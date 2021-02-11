@@ -1,0 +1,82 @@
+{
+"__comment": "Designed by Halbzwilling",
+"textures": {
+    "particle": "blocks/bed_feet_side",
+    "texture": "blocks/bed_feet_top",
+    "planks_oak": "blocks/planks_oak"
+},
+"elements": [ 
+{
+    "from": [ 1, 6, 1 ],
+    "to": [ 15, 9.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 15, 1, 1 ], "rotation": 90, "texture": "#planks_oak" },
+        "up":    { "uv": [ 0, 1, 15, 15 ], "rotation": 270, "texture": "#texture" },
+        "north": { "uv": [ 1, 4.5, 15, 9.5 ], "texture": "#texture" },
+        "south": { "uv": [ 1, 4.5, 15, 9.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 1, 4.5, 16, 9.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 4.5, 15, 9.5 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0, 4, 1.5 ],
+    "to": [ 1, 9, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 1, 0, 0 ], "rotation": 90, "texture": "#planks_oak" },
+        "up":    { "uv": [ 0, 0, 16, 1 ], "rotation": 270, "texture": "#planks_oak" },
+        "north": { "uv": [ 15, 5, 16, 10 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 0, 5, 1, 10 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 0, 5, 16, 10 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 0, 5, 16, 10 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 1.5, 4, 0 ],
+    "to": [ 14.5, 9, 1 ],
+    "faces": {
+        "down":  { "uv": [ 1, 15, 0, 1 ], "rotation": 90, "texture": "#planks_oak" },
+        "up":    { "uv": [ 15, 1, 16, 15 ], "rotation": 270, "texture": "#planks_oak" },
+        "north": { "uv": [ 1, 5, 15, 10 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 1, 5, 15, 10 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 0, 5, 1, 10 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 15, 5, 16, 10 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 15, 4, 1.5 ],
+    "to": [ 16, 9, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 15 ], "rotation": 90, "texture": "#planks_oak" },
+        "up":    { "uv": [ 0, 15, 16, 16 ], "rotation": 270, "texture": "#planks_oak" },
+        "north": { "uv": [ 0, 5, 1, 10 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 15, 5, 16, 10 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 0, 5, 16, 10 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 0, 5, 16, 10 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ -0.5, 0, -0.5 ],
+    "to": [ 1.5, 10, 1.5 ],
+    "faces": {
+        "down":  { "uv": [ 2, 2, 1, 1 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 4.5, 2, 6, 3.5 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 11, 4.5, 12.5, 14.5 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 3, 4.5, 4.5, 14.5 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 2, 4.5, 3.5, 14.5 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 11.5, 4.5, 13, 14.5 ], "texture": "#planks_oak" }
+    }
+},
+{
+    "from": [ 14.5, 0, -0.5 ],
+    "to": [ 16.5, 10, 1.5 ],
+    "faces": {
+        "down":  { "uv": [ 2, 2, 1, 1 ], "texture": "#planks_oak" },
+        "up":    { "uv": [ 4.5, 2, 6, 3.5 ], "texture": "#planks_oak" },
+        "north": { "uv": [ 11, 4.5, 12.5, 14.5 ], "texture": "#planks_oak" },
+        "south": { "uv": [ 3, 4.5, 4.5, 14.5 ], "texture": "#planks_oak" },
+        "west":  { "uv": [ 2, 4.5, 3.5, 14.5 ], "texture": "#planks_oak" },
+        "east":  { "uv": [ 11.5, 4.5, 13, 14.5 ], "texture": "#planks_oak" }
+    }
+}
+]
+}
